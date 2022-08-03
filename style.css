@@ -1,0 +1,149 @@
+@font-face {
+  font-family: OS;
+  src: url("./assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+  font-family: OSC;
+  src: url("./assets/fonts/OpenSans-CondBold.ttf");
+}
+
+/* General CSS boshlandi */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: OS, sans-serif;
+}
+
+.font__OSC {
+  font-family: OSC, sans-serif;
+}
+
+.text__dark {
+  color: #222;
+}
+
+.text__light {
+  color: #fff;
+}
+
+.text__bold {
+  font-weight: bold;
+}
+
+.btn__red,
+.btn__transparent:hover {
+  background: #de2e54;
+  border: 2px solid #de2e54;
+}
+
+.btn__red,
+.btn__transparent {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 150%;
+}
+
+.btn__red:hover {
+  background: #fff;
+  color: #de2e54;
+}
+
+.btn__transparent {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/* General CSS tugadi */
+
+/* Navbar CSS boshlandi */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 10rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo p {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem; /* 100% = 1.5rem = 24px */
+  margin-left: 1rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.menu li {
+  margin: 0 1rem;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #222;
+}
+
+/* Navbar CSS tugadi */
+
+/* Header boshlandi */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 10rem 0 10rem;
+  background: #0EB4C1;
+}
+
+header h1 {
+  font-size: 2.25rem;
+  line-height: 120%;
+}
+
+header p {
+  margin: 1rem 0 2.25rem 0;
+  width: 75%;
+  font-size: 1.1rem;
+  line-height: 150%;
+}
+
+/* Header tugadi */
+
+/* Footer boshlandi */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 10rem;
+  background-color: #222;
+  color: #fff;
+}
+
+footer .menu a {
+  color: #fff;
+}
+
+footer .menu li:last-child {
+  margin-right: 0;
+}
+
+/* Footer tugadi */
