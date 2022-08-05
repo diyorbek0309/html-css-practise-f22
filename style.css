@@ -102,6 +102,11 @@ nav {
   color: #222;
 }
 
+.logo p:hover,
+.menu a:hover {
+  color: #de2e54;
+}
+
 /* Navbar CSS tugadi */
 
 /* Header boshlandi */
@@ -111,7 +116,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 10rem 0 10rem;
-  background: #0EB4C1;
+  background: #0eb4c1;
 }
 
 header h1 {
@@ -127,6 +132,73 @@ header p {
 }
 
 /* Header tugadi */
+
+/* Services boshlandi */
+
+.services {
+  padding: 7.5rem 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.services h2 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 120%;
+  margin-bottom: 1.5rem;
+  color: #000;
+  font-family: OSC;
+}
+
+.service h3 {
+  font-size: 1.5rem;
+  line-height: 120%;
+  color: #222;
+  margin-bottom: 1.5rem;
+}
+
+.services p {
+  line-height: 150%;
+  color: #444444;
+}
+
+.service .service__image {
+  margin-right: 3rem;
+}
+
+/* Services tugadi */
+
+/* Contact boshlandi */
+
+.contact {
+  padding: 4rem 0;
+  background: #0eb4c1;
+  padding-bottom: 4rem;
+  font-family: OSC, sans-serif;
+}
+
+.contact__buttons {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.contact h2 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+
+/* Contact tugadi */
 
 /* Footer boshlandi */
 
