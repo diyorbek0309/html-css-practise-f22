@@ -220,3 +220,95 @@ footer .menu li:last-child {
 }
 
 /* Footer tugadi */
+
+/* Media queries */
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  html {
+    font-size: 14px;
+  }
+  nav,
+  footer {
+    padding: 1.5rem 6rem;
+  }
+  header {
+    padding: 2rem 6rem 0 6rem;
+  }
+  .services {
+    padding: 7.5rem 6rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  html {
+    font-size: 14px;
+  }
+  nav,
+  footer {
+    padding: 1.5rem 5rem;
+  }
+  header {
+    padding: 3rem 5rem;
+    text-align: center;
+  }
+  header p {
+    width: 100%;
+  }
+  header img,
+  nav button {
+    display: none;
+  }
+  .services {
+    padding: 5rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+  nav,
+  footer {
+    padding: 1rem;
+  }
+  .menu li {
+    margin: 0 0.5rem;
+  }
+  header {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+  header p {
+    width: 100%;
+  }
+  header img,
+  nav button,
+  .logo p {
+    display: none;
+  }
+  .services {
+    padding: 2rem;
+  }
+  .service {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .service .service__image {
+    margin: 0;
+  }
+  .contact {
+    padding: 3rem 0;
+  }
+  .contact__buttons {
+    gap: 1.5rem;
+  }
+}
+
+/* 481 - 767, 768 - 1023, 1024 - 1279, 1440 +  */
